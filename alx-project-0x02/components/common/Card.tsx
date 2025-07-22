@@ -1,6 +1,6 @@
-import { CardProp } from "@/interfaces";
+import { CardProps } from "@/interfaces";
 
-const Card: React.FC<CardProp> = ({title, content}) => {
+const Card: React.FC<CardProps> = ({title, content}) => {
     return (
         <div>
             <h2>{title}</h2>

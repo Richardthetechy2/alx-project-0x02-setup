@@ -1,4 +1,4 @@
-export interface CardProp {
+export interface CardProps {
     title: string;
     content: string;
 }
