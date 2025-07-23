@@ -1,0 +1,32 @@
+[
+    {
+      "id": 1,
+      "title": "Understanding React Hooks",
+      "content": "React Hooks provide a powerful way to use state and other React features without writing a class component. They allow you to reuse stateful logic between components.",
+      "userId": 1
+    },
+    {
+      "id": 2,
+      "title": "Getting Started with Next.js",
+      "content": "Next.js is a React framework that enables functionality such as server-side rendering and generating static websites for React based web applications.",
+      "userId": 2
+    },
+    {
+      "id": 3,
+      "title": "TypeScript Best Practices",
+      "content": "TypeScript brings static typing to JavaScript, helping catch errors early and improve code quality. Using interfaces and type checking makes your code more maintainable.",
+      "userId": 3
+    },
+    {
+      "id": 4,
+      "title": "CSS Grid vs Flexbox",
+      "content": "Both CSS Grid and Flexbox are powerful layout systems. Grid is better for two-dimensional layouts, while Flexbox excels at one-dimensional layouts.",
+      "userId": 1
+    },
+    {
+      "id": 5,
+      "title": "Building RESTful APIs",
+      "content": "REST APIs follow architectural constraints that make them scalable and maintainable. Proper use of HTTP methods and status codes is crucial for good API design.",
+      "userId": 4
+    }
+  ]
