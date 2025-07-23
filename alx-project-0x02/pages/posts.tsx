@@ -9,7 +9,7 @@ const Post: React.FC = () => {
 
     useEffect(() => {
 
-        const fetchDummyPosts = async () => {
+        const getStaticProps = async () => {
             try {
                 const response = await fetch('/dummy-posts.json')
                 const data: PostProps[] = await response.json()
@@ -20,7 +20,7 @@ const Post: React.FC = () => {
                 setLoading(false);
             }
         }
-        fetchDummyPosts()
+        getStaticProps()
     }, [])
     if (loading) {
         return (
