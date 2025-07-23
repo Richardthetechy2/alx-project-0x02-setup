@@ -8,7 +8,7 @@ const User: React.FC = () => {
     const [loading, setLoading] = useState(true)
     
     useEffect(() => {
-        const  fetchUser = async ()  => {
+        const  getStaticProps = async ()  => {
             try {
 
                 const response = await fetch('https://jsonplaceholder.typicode.com/users')
@@ -20,7 +20,7 @@ const User: React.FC = () => {
                 setLoading(false)
             }
         }
-        fetchUser()
+        getStaticProps()
     }, [])
     if (loading) {
         return (
